@@ -682,6 +682,10 @@ GENERATE_BUGLIST       = YES
 
 GENERATE_DEPRECATEDLIST= YES
 
+GENERATE_SQLITE3=YES
+SQLITE3_OUTPUT=sqlite3
+SQLITE3_RECREATE_DB=YES
+
 # The ENABLED_SECTIONS tag can be used to enable conditional documentation
 # sections, marked by \if <section_label> ... \endif and \cond <section_label>
 # ... \endcond blocks.
